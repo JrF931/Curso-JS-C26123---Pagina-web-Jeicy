@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header> 
+        <div class="div-logo">
+            <a href="../index.html"><img src="../img/logojeicy.jpeg" alt="Logo" width="120" height="100" class="logo" ></a>
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Carrito de compras</h1>
+        <section id="contenedor-carrito" class="contenedor-tarjetas">
+            <!-- productois del carrito-->
+        </section>
+        <div id="acciones-carrito" class="acciones-carrito">
+            <!--Botones de eliminar y finalizar compra se agregan desde js-->
+        </div>
+        <section id="resumen-carrito">
+            <!--Resumen del carrito-->
+        </section>
+
+        <section id="checkout-carrito" class="checkout-carrito" hidden>
+            <h2 class="titulo-home text-secundary">Datos de la compra</h2>
+            <form id="form-checkout" class="form-contacto">
+
+                <h3 class="subtitulo-checkout">Datos del cliente</h3>
+                <div class="grupo-input">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" required>
+                </div>
+                <div class="grupo-input">
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido" name="apellido" type="text" required>
+                </div>
+                <div class="grupo-input">
+                    <label for="dni">DNI</label>
+                    <input id="dni" name="dni" type="text" required>
+                </div>
+                <div class="grupo-input">
+                    <label for="direccion">Dirección</label>
+                    <input id="direccion" name="direccion" type="text" required>
+                </div>
+                <div class="grupo-input">
+                    <label for="codigoPostal">Código postal</label>
+                    <input id="codigoPostal" name="codigoPostal" type="text" required>
+                </div>
+
+                <h3 class="subtitulo-checkout">Método de entrega</h3>
+                <div class="grupo-opciones">
+                    <label><input type="radio" name="entrega" value="retiro" checked> Retirar en el local</label>
+                    <label><input type="radio" name="entrega" value="envio"> Envío a domicilio (+$5.000)</label>
+                </div>
+
+                <div id="datos-retiro" class="grupo-input">
+                    <label for="horario">Horario de retiro</label>
+                    <select id="horario" name="horario">
+                        <option value="9 a 13 hs">9 a 13 hs</option>
+                        <option value="15 a 20 hs">15 a 20 hs</option>
+                    </select>
+                </div>
+
+                <h3 class="subtitulo-checkout">Método de pago</h3>
+                <div class="grupo-opciones">
+                    <label><input type="radio" name="pago" value="efectivo" checked> Efectivo</label>
+                    <label><input type="radio" name="pago" value="transferencia"> Transferencia</label>
+                    <label><input type="radio" name="pago" value="debito"> Débito</label>
+                </div>
+
+                <div id="datos-transferencia" class="grupo-input" hidden>
+                    <label for="cbu">CBU o alias</label>
+                    <input id="cbu" name="cbu" type="text">
+                </div>
+
+                <div id="datos-debito" class="grupo-input" hidden>
+                    <label for="numeroTarjeta">Número de tarjeta</label>
+                    <input id="numeroTarjeta" name="numeroTarjeta" type="text" maxlength="16">
+                    <label for="titular">Titular de la tarjeta</label>
+                    <input id="titular" name="titular" type="text">
+                </div>
+
+                <p id="total-checkout" class="total-checkout"></p>
+
+                <button class="btn bg-secondary text-dark" type="submit">Confirmar compra</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> Sitio realizado para la pre entrega</p>
+        <nav>
+            <ul class="footer-list">
+                <li><img src="../img/logo whatsapp.png" alt="Logo" width="50"></li>
+                <li><img src="../img/logo instagram.png" alt="Logo" width="50"></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="../js/carrito.js"></script>
+</body>
+</html>

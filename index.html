@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
@@ -16,6 +16,7 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/carrito.html" class="carrito-icono">Carrito: <span id="contador-carrito">0</span></a></li>
             </ul>
         </nav>
     </header>
@@ -25,8 +26,8 @@
 
         <section>
             <h2 class="titulo-home text-secundary">Nuestros productos</h2>
-            <div class="contenedor-tarjetas">
-                <article class="card text-dark">
+            <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+               <!--<article class="card text-dark">
                     <h3 class="tarjeta-titulo">Producto 1</h3>
                     <img src="img/buzofoto1.jpeg" alt="Producto 1" class="tarjeta-imagen" width="300">
                     <p class="tarjeta-descripcion">Buzo negro de algodon. talles disponibles S/L/XL.</p>
@@ -48,7 +49,7 @@
                     <p class="tarjeta-descripcion">Buzo negro y gris/ gris y negro de algodon. talles disponibles S/L/XL.</p>
                     <p class="tarjeta-precio">$15.000</p>
                     <button class="btn bg-secondary text-dark">agregar al carrito</button>
-                </article>
+                </article>-->
                 
             </div>
         </section>
@@ -63,6 +64,7 @@
         </nav>
 
 
-    </footer>    
+    </footer>   
+    <script type="module" src="./js/index.js"></script> 
 </body>
 </html>

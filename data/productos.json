@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Producto 1",
+        "imagen": "buzofoto1.jpeg",
+        "descripcion": "Buzo negro de algodon. talles disponibles S/L/XL.",
+        "precio": 15000
+    },
+    {
+        "nombre": "Producto 2",
+        "imagen": "buzofoto2.jpeg",
+        "descripcion": "Buzo negro y gris/ gris y negro de algodon. talles disponibles S/L/XL.",
+        "precio": 15000
+    },
+    {
+        "nombre": "Producto 3",
+        "imagen": "buzofoto3.jpeg",
+        "descripcion": "Buzo negro y gris/ gris y negro de algodon. talles disponibles S/L/XL.",
+        "precio": 15000
+    },
+    {
+        "nombre": "Producto 4",
+        "imagen": "buzofoto4.jpeg",
+        "descripcion": "Combo de buzos en 4 colores, material de algodon. talles disponibles S/L/XL.",
+        "precio": 50000
+    },
+    {
+        "nombre": "Producto 5",
+        "imagen": "buzofoto5.jpeg",
+        "descripcion": "Combo de buzos con estampado, material de algodon. talles disponibles S/L/XL.",
+        "precio": 50000
+    },
+    {
+        "nombre": "Producto 6",
+        "imagen": "buzofoto6.jpeg",
+        "descripcion": "Combo de buzos con estampado de Brooklyn/Los Angeles, material de algodon. talles disponibles S/L/XL.",
+        "precio": 50000
+    },
+    {
+        "nombre": "Producto 7",
+        "imagen": "buzofoto7.jpeg",
+        "descripcion": "Combo de buzos con estampado de NYC/Colorado/california/montana, material de algodon. talles disponibles S/L/XL.",
+        "precio": 50000
+    },
+    {
+        "nombre": "Producto 8",
+        "imagen": "buzofoto8.jpeg",
+        "descripcion": "Combo de buzos con estampado Thrasher, material de algodon. talles disponibles S/L/XL.",
+        "precio": 50000
+    }
+]

@@ -277,7 +277,66 @@ footer .footer-list{
 }
 
 /* ------------------------------------------------------- */
-/*                         MEDIA QUERIES                    */  
+/*                        Nuevo Carrito                    */  
+/* ------------------------------------------------------- */
+
+.mensaje-carrito-vacio{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.acciones-carrito{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* ------------------------------------------------------- */
+/*                    CHECKOUT (finalizar compra)          */
+/* ------------------------------------------------------- */
+
+.checkout-carrito{
+    width: 100%;
+    max-width: 50rem;
+    margin-top: 3rem;
+}
+
+.subtotal-carrito{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.subtitulo-checkout{
+    font-size: 1.8rem;
+    color: #1a1a2e;
+    margin: 2rem 0 1rem 0;
+}
+
+.grupo-opciones{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.grupo-opciones label{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.total-checkout{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    text-align: right;
+}
+
+/* ------------------------------------------------------- */
+/*                         MEDIA QUERIES                   */  
 /* ------------------------------------------------------- */
 @media (max-width: 600px) {
     header,
